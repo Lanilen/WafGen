@@ -19,3 +19,8 @@ maf_sorter.pl: A helper script that will take a MAF alignment and sort it by sco
 compare_mappings.pl: Given a reference and a series of SAM files, this script will give some statistics
                      on how many reads map with the same score, different, map in a different region,
                      etc.
+
+WafGen stands for "Waffle Genome Maker". The reason for the name is that, after filtering, plotting the
+alignment in an alignment viewer looks like the cross-cut of a waffle. That's because in some organisms
+(such as the _Plasmodium falciparum_ example), variable regions tend to be the same across different
+individuals.
